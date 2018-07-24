@@ -25,3 +25,18 @@ function ArteonYellow() {
 function ArteonBlue() {
     document.getElementById("arteon").src = "Cars/Arteon/ArteonBlue.png";
 }
+
+//--------------Changing Colour of GT R--------------//
+function GTRed() {
+    document.getElementById("GT").src = "Cars/GT/GT(Red).png";
+}
+function GTWhite() {
+    document.getElementById("GT").src = "Cars/GT/GT(White).png";
+}
+function GTGrey() {
+    document.getElementById("GT").src = "Cars/GT/GT(Grey).png";
+}
+function GTBlue() {
+    document.getElementById("GT").src = "Cars/GT/GT(Blue).png";
+}
+
