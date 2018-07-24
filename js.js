@@ -40,3 +40,18 @@ function GTBlue() {
     document.getElementById("GT").src = "Cars/GT/GT(Blue).png";
 }
 
+//--------------Changing Colour of GT R--------------//
+function TiguanRed() {
+    document.getElementById("Tiguan").src = "Cars/Tiguan/TiguanRed.png";
+}
+function TiguanBlack() {
+    document.getElementById("Tiguan").src = "Cars/Tiguan/TiguanBlack.png";
+}
+function TiguanGrey() {
+    document.getElementById("Tiguan").src = "Cars/Tiguan/TiguanGrey.png";
+}
+function TiguanBlue() {
+    document.getElementById("Tiguan").src = "Cars/Tiguan/TiguanBlue.png";
+}
+
+
