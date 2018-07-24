@@ -27,20 +27,20 @@ function ArteonBlue() {
 }
 
 //--------------Changing Colour of GT R--------------//
-function GTRed() {
-    document.getElementById("GT").src = "Cars/GT/GT(Red).png";
+function GTCherryRed() {
+    document.getElementById("GT").src = "Cars/GT/GT(CherryRed).png";
 }
-function GTWhite() {
-    document.getElementById("GT").src = "Cars/GT/GT(White).png";
+function GTHotPink() {
+    document.getElementById("GT").src = "Cars/GT/GT(HotPink).png";
 }
-function GTGrey() {
-    document.getElementById("GT").src = "Cars/GT/GT(Grey).png";
+function GTGreen() {
+    document.getElementById("GT").src = "Cars/GT/GT(Green).png";
 }
 function GTBlue() {
     document.getElementById("GT").src = "Cars/GT/GT(Blue).png";
 }
 
-//--------------Changing Colour of GT R--------------//
+//--------------Changing Colour of Tiguan--------------//
 function TiguanRed() {
     document.getElementById("Tiguan").src = "Cars/Tiguan/TiguanRed.png";
 }
