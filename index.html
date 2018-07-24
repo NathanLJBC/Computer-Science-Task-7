@@ -1,20 +1,48 @@
 <html> 
-<head> 
-<title>Volkswagen Wangara</title>
-    <link href="styling.css" rel="stylesheet">
-    <link href="js.js" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:600" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="section1">
-    <h1>Volkswagen Wangara</h1>
-</div>
-<div class="section2">
-    <h2>Test</h2>
-    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Red</button>
-    <img src="Cars/Amarok/Amarok.png" >
-</div>
+    <head> 
+        <title>Volkswagen Wangara</title>
+            <link href="styling.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Cabin:600" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script src="js.js"></script>
+    </head>
+    <body>
+        <section class="landing">
+            <h1>Test Title</h1>
+        </section>
+        <section class="carPick">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img id="amarok" src="Cars/Amarok/Amarok.png" class="image">
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-group">
+                                <button onclick="AmarokBlue()" class="btn">Blue</button>
+                                <button onclick="AmarokRed()" class="btn">Red</button>
+                                <button onclick="AmarokPink()" class="btn">Pink</button>
+                                <button onclick="AmarokLime()" class="btn">Lime</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img id="arteon" src="Cars/Arteon/ArteonBlue.png" class="image">
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-group">
+                                <button onclick="ArteonBlue()" class="btn">Blue</button>
+                                <button onclick="ArteonGrey()" class="btn">Grey</button>
+                                <button onclick="ArteonYellow()" class="btn">Yellow</button>
+                                <button onclick="ArteonRed()" class="btn">Red</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+        
+        
     </body>
 </html>

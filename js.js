@@ -1,12 +1,27 @@
-function Amarok1() {
-    document.getElementById("myImg").src = "hackanm.gif";
+//--------------Changing Colour of Amarok--------------//
+function AmarokRed() {
+    document.getElementById("amarok").src = "Cars/Amarok/Cherry_Red.png";
 }
-function Amarok2() {
-    document.getElementById("myImg").src = "hackanm.gif";
+function AmarokPink() {
+    document.getElementById("amarok").src = "Cars/Amarok/Hot_Pink.png";
 }
-function Amarok3() {
-    document.getElementById("myImg").src = "hackanm.gif";
+function AmarokLime() {
+    document.getElementById("amarok").src = "Cars/Amarok/Lime.png";
 }
-function Amarok4() {
-    document.getElementById("myImg").src = "hackanm.gif";
+function AmarokBlue() {
+    document.getElementById("amarok").src = "Cars/Amarok/Amarok.png";
+}
+
+//--------------Changing Colour of Arteon--------------//
+function ArteonRed() {
+    document.getElementById("arteon").src = "Cars/Arteon/ArteonRed.png";
+}
+function ArteonGrey() {
+    document.getElementById("arteon").src = "Cars/Arteon/ArteonGrey.png";
+}
+function ArteonYellow() {
+    document.getElementById("arteon").src = "Cars/Arteon/ArteonYellow.png";
+}
+function ArteonBlue() {
+    document.getElementById("arteon").src = "Cars/Arteon/ArteonBlue.png";
 }
