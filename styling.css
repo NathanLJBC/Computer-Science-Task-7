@@ -34,8 +34,20 @@ h1 {
 /*Title Box*/
 .vw {
     color: white;
+    font-family: "Karla";
     text-align: center;
 }
 .display-4 {
     margin-bottom: 50px;
+}
+
+navbar {
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
