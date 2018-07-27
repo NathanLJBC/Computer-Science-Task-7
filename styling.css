@@ -56,7 +56,7 @@ h1 {
 .display-4 {
     margin-bottom: 50px;
 }
-
+/*Navbar Padding*/
 navbar {
     padding: 10px;
 }
@@ -67,7 +67,7 @@ navbar {
     margin-right: auto;
    
 }
-
+/*Footer Styling*/
 footer {
     background-color: #232323;
     margin-top: 470px;
